@@ -70,7 +70,7 @@ resource "google_container_node_pool" "primary_nodes" {
 
 # Optional local kubeconfig setup for users running Terraform from their own machine.
 resource "null_resource" "set_kubeconfig" {
-  
+
   depends_on = [
     google_container_cluster.primary,
   ]
