@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - master
   workflow_dispatch:
 
 permissions:
@@ -41,4 +42,4 @@ jobs:
           gh release create "$NEXT" \
             --title "Release $NEXT" \
             --generate-notes
-            
+
