@@ -7,7 +7,7 @@ variable "gke_config" {
     min_node_count = 1
     max_node_count = 2
     machine_type   = "e2-medium"
-    disk_size_gb   = "100"
+    disk_size_gb   = "20"
     disk_type      = "pd-balanced"
   }
 }
