@@ -2,7 +2,7 @@ variable "gke_config" {
   type = map(any)
   default = {
     cluster_name   = "project-cluster"
-    location       = "us-central1"
+    location       = "us-central1-a"
     node_count     = 1
     min_node_count = 1
     max_node_count = 2
